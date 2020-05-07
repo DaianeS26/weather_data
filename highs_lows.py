@@ -19,7 +19,7 @@ with open(filename) as f:
         highs.append(high)
 
 #Plot data
-fig = plt.plot(dpi=128, figsize = (10, 6))
+fig = plt.figure(dpi=128, figsize = (10, 6))
 plt.plot(dates, highs, c = 'red')
 
 #Format plot 
